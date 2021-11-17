@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(46, 48, 53);
+}
+.navBar-wrapper {
+  border: 1px solid red;
+  background-image: url(https://s.imgur.com/desktop-assets/desktop-assets/homebg.e52b5cdf24f83bcd55f9f1318855f2ef.png);
+  /* no-repeat; */
+  height: 400px;
+}
+nav {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-navbar {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.search-bar {
+  width: 40%;
+  position: absolute;
+  z-index: 5;
+  top: 12px;
+  left: calc(50% - 350px);
+}
+.search-bar input {
+  width: 525px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  color: #fff;
+  opacity: 0.7;
+  height: 25px;
+  background: hsla(0, 0%, 100%, 0.25);
+  padding: 6px 10px;
+}
+.search-bar > input::placeholder {
+  color: #fff;
+}
+.search-bar > input:focus {
+  outline: none;
+}
+.search-bar > img {
+  position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+.right-navbar {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.right-navbar > a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #1bb76e;
+  padding: 6px 13px;
+  border-radius: 3px;
+  height: 25px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  letter-spacing: -0.5px;
+  padding: 6px 30px;
+}
+#signin {
+  background-color: inherit;
+}
+.right-navbar :nth-child(2) {
+  background-color: rgb(100, 50, 249);
+}
+
+.logo {
+  width: 100px;
+}
+.post {
+  border-radius: 2px;
+  align-items: center;
+  padding: 8px;
+  width: 100px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: rgb(27, 183, 110);
+}
+.post img {
+  width: 20px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.post span {
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  margin-left: 5px;
+  font-weight: 400;
+}
+.post a {
+  text-decoration: none;
+}
+h2 {
+  border: 1px solid red;
+  height: 30px;
+  text-align: center;
+  color: rgb(174, 216, 234);
+  font-size: 30px;
+  vertical-align: middle;
+}
