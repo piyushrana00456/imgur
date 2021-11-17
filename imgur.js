@@ -68,3 +68,27 @@ const handleScroll = () => {
 };
 
 window.addEventListener("scroll", handleScroll);
+
+function handleSearch() {
+  let input = document.getElementById("query").value;
+  console.log(input);
+  fetchQueryData(input);
+  input.value = "";
+}
+
+function fetchQueryData(query) {
+  fetch(
+    `https://api.unsplash.com/search/photos?page=1&per_page=30&query=${query}&client_id=WdleZc1GO2SvZj7EPJ0jE3frFtuId8CkHLM9UiVB3iw`
+  )
+    .then((res) => {
+      return res.json();
+    })
+    .then((res) => {
+      let d = res.results;
+      data = [...d];
+      appendData();
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+}
