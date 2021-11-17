@@ -114,10 +114,139 @@ nav {
   text-decoration: none;
 }
 h2 {
-  border: 1px solid red;
   height: 30px;
   text-align: center;
   color: rgb(174, 216, 234);
   font-size: 30px;
   vertical-align: middle;
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial;
+}
+.tags {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial;
+  color: rgb(176, 175, 191);
+  padding: 4px;
+}
+.options {
+  display: flex;
+
+  width: 85%;
+  margin: auto;
+  padding: 4px;
+}
+.big {
+  background-image: url("./image/big.jpg");
+  height: 130px;
+  vertical-align: middle;
+  width: 20%;
+  text-align: center;
+  display: flex;
+  margin: 5px;
+  border-radius: 4px;
+  flex-direction: column-reverse;
+}
+.big > div > h4 {
+  color: white;
+}
+.big > div > h6 {
+  color: rgb(203, 164, 216);
+}
+.small > div > div > h4 {
+  color: white !important;
+}
+.small {
+  width: 10%;
+  text-align: center;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 130px;
+  margin: 5px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+.big-v {
+  background-color: rgb(151, 72, 182);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-m {
+  background-color: rgb(113, 209, 168);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-m h6 {
+  color: rgb(21, 149, 89);
+}
+.s-f {
+  background-color: rgb(168, 134, 128);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-f h6 {
+  color: rgb(212, 195, 192);
+}
+.s-s {
+  background-color: rgb(170, 51, 230);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-s h6 {
+  color: rgb(203, 164, 216);
+}
+.s-i {
+  background-color: rgb(36, 86, 94);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-i h6 {
+  color: rgb(139, 171, 175);
+}
+.s-j {
+  background-color: rgb(129, 176, 87);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-j {
+  color: rgb(190, 212, 158);
+}
+.s-k {
+  background-color: rgb(80, 83, 90);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-k h6 {
+  color: rgb(162, 169, 173);
+}
+.s-c {
+  background-color: rgb(21, 149, 89);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-c h6 {
+  color: rgb(138, 194, 140);
+}
+.s-d {
+  background-color: rgb(113, 209, 168);
+  height: 50px;
+  line-height: 0rem;
+  padding-bottom: 5px;
+}
+.s-d h6 {
+  color: rgb(203, 236, 222);
+}
+.s-r h6 {
+  color: rgb(112, 100, 121);
 }
