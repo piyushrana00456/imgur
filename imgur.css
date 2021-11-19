@@ -75,7 +75,8 @@ nav {
   font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial,
     sans-serif;
   letter-spacing: -0.5px;
-  padding: 6px 30px;
+  padding: 6px 20px;
+  white-space: nowrap;
 }
 #signin {
   background-color: inherit;
