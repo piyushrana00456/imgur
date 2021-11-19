@@ -27,12 +27,18 @@ function appendData() {
       <img src=${el.urls.small} alt="">
     </div>
     <div class="details">
-      <h3>${el.alt_description}</h3>
+      <h3>${
+        el.alt_description != null ? el.alt_description : "Happy coding"
+      }</h3>
       <div class="views">
         
       <span>${el.likes} <i class="fas fa-long-arrow-alt-down"></i></span>
-      <span>30 <i class="fas fa-comment-alt"></i></span
-      <span>${el.height} <i class="fas fa-eye"></i></span
+      <span>${
+        Math.floor(Math.random() * 50) + 1
+      } <i class="fas fa-comment-alt"></i></span
+      <span>${
+        Math.floor(Math.random() * 10000) + 1
+      } <i class="fas fa-eye"></i></span
       </div>
     </div>`;
     document.querySelector(".cards").append(div);
